@@ -6,8 +6,8 @@ def get_repo_size(url):
     data = response.json()
     
     if "size" in data:
-        n_size = data['size'] / (1024*1024)
-        print(f"Size of repo: {n_size:.3f} GB")
+        n_size = data['size'] / (1024)
+        print(f"Size of repo: {n_size:.3f} MB")
     else:
         print("Error: Repository not found or API rate limit exceeded.")
 
