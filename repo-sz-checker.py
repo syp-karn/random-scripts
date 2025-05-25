@@ -1,3 +1,4 @@
+#Helps you check the size of GitHub repositories before you clone them
 import requests
 
 def get_repo_size(url):
