@@ -5,3 +5,4 @@
   * A Bing query automator
   * An IG-related script
   * A GitHub repo size finder
+  * Wifi Login Scripts (for Windows and Linux)
