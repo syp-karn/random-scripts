@@ -8,7 +8,6 @@ username=""
 password=""
 mode="191"
 
-# send login request
 curl -k -X POST "$url" \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -H "Origin: https://10.0.112.2:8090" \
